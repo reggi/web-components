@@ -1,6 +1,7 @@
 {
   "tasks": {
     "bundle": "deno run --allow-read --allow-write --allow-env --allow-run ./script/bundle.ts --srcDir ./src --outDir ./dist --ext .js --ext .tsx --ext .ts",
+    "bundle-workflow": "deno run --allow-net --allow-read --allow-write --allow-env --allow-run ./script/bundle.ts --srcDir ./src --outDir ./dist --ext .js --ext .tsx --ext .ts",
     "bundle-watch": "deno run --allow-read --allow-write --allow-env --allow-run --watch='./src/' ./script/bundle.ts --srcDir ./src --outDir ./dist --ext .js --ext .tsx --ext .ts",
     "serve": "deno run --allow-net --allow-read ./script/serve.ts ./dist ./serve",
     "serve-watch": "deno run --allow-net --allow-read --watch ./script/serve.ts ./dist ./serve"
