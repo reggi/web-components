@@ -21,7 +21,7 @@ jobs:
           deno-version: v1.x
 
       - name: Bundle TypeScript files
-        run: deno task bundle-workflow
+        run: deno task bundle
 
       - name: Commit and Push
         run: |

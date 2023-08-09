@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repeater Component</title>
+    <script src="./input_repeat_two.js"></script>
+    <link rel="stylesheet" href="./main-two.css"></script>
+</head>
+<body>
+  <form action="./form-handler-two" method="POST"> 
+    <input-repeat data-values='[{ "name": "thomas", "hometown": "brooklyn" }]' data-name="people">
+      <input type="text" placeholder="name" name="name">
+      <input type="text" placeholder="hometown" name="hometown">
+      <span data-input-repeat-up>Up</span>
+      <span data-input-repeat-down>Down</span>
+      <span data-input-repeat-remove>Remove</span>
+    </input-repeat>
+    <div data-input-repeat-create-new-line>Add New Line</div>
+    <div>
+      <br/>
+      <input type="text" placeholder="soup" name="soup" value="love"><br/>
+      <button type="submit" class="submit-button">submit</button>
+    </div>
+  </form>
+</body>
+</html>
+
+

@@ -1,4 +1,4 @@
-
+import nodePath from 'node:path'
 import { extname, join } from "https://deno.land/std@0.197.0/path/mod.ts";
 import { typeByExtension } from "https://deno.land/std@0.197.0/media_types/type_by_extension.ts";
 
@@ -24,7 +24,7 @@ async function findFileOrIndexInFolders(folders: string[], fileName: string): Pr
     }
     // Check for index files if the main file was not found
     for (const indexFile of indexFiles) {
-      const indexPath = join(folder, indexFile);
+      const indexPath = join(folder, fileName, indexFile);
       try {
         const value = await Deno.stat(indexPath);
         if (!value.isFile) throw new Error('not a file')
@@ -43,6 +43,10 @@ export const serveFolders = async (folders: string[], req: Request) => {
   try {
     const match = await findFileOrIndexInFolders(folders, path)
     if (!match) throw new Error('File not found')
+    if (match.endsWith('.html') && nodePath.extname(path) !== '.html' && !path.endsWith('/')) {
+      // this is so that relative assets work correctly
+      return Response.redirect(req.url + '/')
+    }
     const content = await Deno.readTextFile(match)
     return new Response(content, { headers: new Headers({ "Content-Type": determineContentType(extname(match)) }) });
   } catch (_error) {

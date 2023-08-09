@@ -1,4 +1,4 @@
-export function transform(obj: Record<string, string | File>) {
+export function formParser(obj: Record<string, string | File>) {
   const result: Record<string, any> = {};
   for (const key in obj) {
     const match = key.match(/^(\w+)\[(\d+)\]\[(.+)\]$/);

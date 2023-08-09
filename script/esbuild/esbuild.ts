@@ -56,7 +56,7 @@ export class EsbuildBuilder {
 
         format: "esm",
         bundle: true,
-        splitting: true,
+        splitting: opts.outDir ? true : false,
         treeShaking: true,
         sourcemap: opts.dev ? "linked" : false,
         ...minifyOptions,
