@@ -15,7 +15,6 @@ async function findFileOrIndexInFolders(folders: string[], fileName: string): Pr
   for (const folder of folders) {
     const filePath = join(folder, fileName);
     const indexFiles = ["index.html", "index.js"]; // Add other index file types if needed
-    console.log({ fileName, folder, filePath })
     try {
       const value = await Deno.stat(filePath);
       if (!value.isFile) throw new Error('not a file')

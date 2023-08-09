@@ -1,0 +1,9 @@
+{
+  "body": "m-3",
+  "input": "m-3 border border-gray-400 p-2 rounded",
+  "[data-input-repeat-remove]": "inline bg-red-500 text-white p-2 rounded cursor-pointer",
+  "[data-input-repeat-up]": "inline bg-blue-500 text-white p-2 rounded cursor-pointer",
+  "[data-input-repeat-down]": "inline bg-blue-500 text-white p-2 rounded cursor-pointer",
+  "[data-input-repeat-create-new-line]": "m-3 inline bg-green-500 text-white p-2 rounded cursor-pointer",
+  ".submit-button": "m-3  bg-blue-500 text-white p-2 rounded cursor-pointer"
+}

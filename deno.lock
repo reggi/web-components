@@ -103,6 +103,25 @@
     "https://deno.land/x/fresh@1.3.1/src/build/esbuild.ts": "2f9c03086afdcea8f6fac30231497b879543a00ec76092b58a303ea87c28ec8f",
     "https://deno.land/x/fresh@1.3.1/src/build/mod.ts": "95d2d99b7d31adfa10896599bdd21c67b3eac0d077e7a39fc637f812196538c3",
     "https://deno.land/x/importmap@0.2.1/_util.ts": "ada9a9618b537e6c0316c048a898352396c882b9f2de38aba18fd3f2950ede89",
-    "https://deno.land/x/importmap@0.2.1/mod.ts": "ae3d1cd7eabd18c01a4960d57db471126b020f23b37ef14e1359bbb949227ade"
+    "https://deno.land/x/importmap@0.2.1/mod.ts": "ae3d1cd7eabd18c01a4960d57db471126b020f23b37ef14e1359bbb949227ade",
+    "https://deno.land/x/resume@0.0.12/src/twind/attributes.ts": "6e5fb6bfbb62e6c600e2779e904852840f5432d38d195f14d3f84217ae750dd0",
+    "https://deno.land/x/resume@0.0.12/src/twind/mod.ts": "0f723b3ddf21ba9447cff4f67ecd12def9d4c8ebc8ad92d218b78823b1bc2083",
+    "https://deno.land/x/resume@0.0.12/src/twind/parse.ts": "c80a4a8dbe791431568b3c914b8d0c272270418aee722dd75a415e1a47dd4202",
+    "https://deno.land/x/resume@0.0.12/src/twind/print.ts": "c53c34f43815348e096a197fab47546848522e6724d6c01ecefb6aff946bb5ee",
+    "https://esm.sh/twind@0.16.19": "e6db0352eb940ca8cdbf129fe4520809916d002b8ccc2e2fc7f8551138f7a161",
+    "https://esm.sh/twind@0.16.19/colors": "ce4bc1e0cffd337d614d388ed7dd553751ce887dc85854da263888ad43768844",
+    "https://esm.sh/twind@0.16.19/css": "5acd9d632cad423ca87e73d9cb4f6c7477af7f35e86e9e458ab4ccae1ddeb450",
+    "https://esm.sh/twind@0.16.19/shim/server": "cf824c2bbfce848e4146d8ed16a4688a1b845a94dabac4cc919a7d14ff0d61b3",
+    "https://esm.sh/v124/entities@2.2.0/deno/lib/decode_codepoint.js": "01441bbca1fffadcc838e6ec752a16e0432783914a0afa4758a0b2d1d87ba90f",
+    "https://esm.sh/v124/entities@2.2.0/deno/lib/maps/entities.json.js": "01f944ad035ed04933ce70dc72d69f7cff02c246c41ae4586358b37e1f00c2ae",
+    "https://esm.sh/v124/entities@2.2.0/deno/lib/maps/legacy.json.js": "335ec8f3fc69aa1a6ea7c09dbd108635b0e403e6f0e29c104db1149675de27b0",
+    "https://esm.sh/v124/entities@2.2.0/deno/lib/maps/xml.json.js": "4878802f2e716d6c7755d20a6c8a01bd6e11c2662e1b1664af98bdb8360ecc2f",
+    "https://esm.sh/v124/htmlparser2@6.1.0/deno/lib/Tokenizer.js": "f8cacc22673ad99b8272a92ec48dff0162968c215a660fb9d75d6a106929768f",
+    "https://esm.sh/v124/style-vendorizer@2.2.3/deno/style-vendorizer.mjs": "fb725497dd9621a84f552f9b6a4f3df82af5989ff18c40e972de1bdf475c9765",
+    "https://esm.sh/v124/twind@0.16.19/deno/colors.js": "31454b11c767fd779981893702a13e052717a90e3567e8de518fa00ce898b4e2",
+    "https://esm.sh/v124/twind@0.16.19/deno/css.js": "010aed9052028cb198b16f96e38ffa7c721459b6bc3411e46a4258703f903ba5",
+    "https://esm.sh/v124/twind@0.16.19/deno/sheets.js": "dcdb26e5d2860d9fff3ad81b81625799e501d465efdc99b206d3b7cd94151913",
+    "https://esm.sh/v124/twind@0.16.19/deno/shim/server.js": "f1506f557ed6fa42850eb866fa26b12ad8981247f2c4cf8964f9a98255e02c54",
+    "https://esm.sh/v124/twind@0.16.19/deno/twind.mjs": "ac4bf729653ee66349a518ee4949f22e84b7f626e8f74de1066e798a7c1ca12a"
   }
 }
