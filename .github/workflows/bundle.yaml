@@ -1,0 +1,30 @@
+name: Bundle TypeScript to JavaScript
+
+on:
+  push:
+    paths:
+      - 'src/**/*.ts'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Bundle TypeScript files
+        run: deno task bundle
+
+      - name: Commit and Push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "Bundle TypeScript files to JavaScript" || true
+          git push || true

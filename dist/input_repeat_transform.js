@@ -1,0 +1,1 @@
+function i(o){let n={};for(let r in o){let e=r.match(/^(\w+)\[(\d+)\]\[(.+)\]$/);if(e){let t=e[1],s=parseInt(e[2],10),c=e[3];n[t]=n[t]||[],n[t][s]=n[t][s]||{name:"",hometown:""},n[t][s][c]=o[r]}else n[r]=o[r]}return n}export{i as transform};

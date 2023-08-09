@@ -1,0 +1,3 @@
+# web-components
+
+I'm very interested in web components. I love html and the fundamental bare-bones web. I still think there's something missing from being able to simply serve files on a webserver and along with that easily get interactivity. This repo uses deno and typescript to create web-components and spits them out as browser-based js. The first one used to demo this repo is `input-repeat` it allows you to create children within the element and allows a user to add series of these items. Because the element is a web-component it uses plain forms and inputs to do the lifiting and is completly flexable using `data` attributes. 
