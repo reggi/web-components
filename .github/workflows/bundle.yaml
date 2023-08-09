@@ -5,6 +5,7 @@ on:
     paths:
       - 'src/**/*.ts'
       - 'deno.json'
+      - 'deno.lock'
       - '.github/workflows/bundle.yaml'
 
 jobs:
